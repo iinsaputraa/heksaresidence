@@ -1,0 +1,56 @@
+
+
+/*Navbar*/
+	.navbar-brand, .nav-link {
+		color: white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+
+	}
+
+/*Image*/
+	.image-logo {
+		height: 150px;
+		width: auto;
+
+	}
+
+	.image-logo img{
+		padding-top: 35px; 
+	}
+
+/*font*/
+
+h4 {
+	font-size: 12px;
+	padding-top: 4px;
+}
+
+/*Lokasi*/
+
+#googleMap{
+	margin-top: 50px;
+}
+
+/*Jumbotron*/
+.jumbotron {
+	margin-top: 20px;	
+}
+
+footer {
+	margin-top: -35px;
+}
+
+
+/*DEKSTOP*/
+@media (min-width: 992px) {
+
+	h4{
+		font-size: 20px;
+		padding-top: 10px;
+	}
+
+	#googleMap{
+		margin-top: 20px;
+	}
+
+}

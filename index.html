@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+           // fungsi initialize untuk mempersiapkan peta
+           function initialize() {
+           var propertiPeta = {
+               center:new google.maps.LatLng(-6.3220777,107.0090655),
+               zoom:9,
+               mapTypeId:google.maps.MapTypeId.ROADMAP
+           };
+           
+           var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+           }
+
+           // event jendela di-load  
+           google.maps.event.addDomListener(window, 'load', initialize);
+       </script>
+
+    <title>Heksa Residence</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Heksa Residence</a>
+      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#visimisi">Vision-Mission</a>
+          <a class="nav-item nav-link" href="#tipe">Type</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- image -->    
+    <div class="" id="home">
+      <img src="img/Heksa.jpg" class="rounded mx-auto d-block img-fluid" alt="...">
+    </div>
+
+    <!-- Pesan -->
+    <div class="container-fluid text-center bg-info text-white" style="height: 50px;">
+      <h4>Jika Anda Sedang Mencari Hunian Berkualitas, Inilah Saatnya Memiliki Hunian Terbaik dari Heksa Residence Bekasi!</h4>
+    </div>
+    <!-- Akhir Pesan -->
+
+    <div class="image-logo" id="visimisi">
+      <img src="img/logo.png" class="rounded mx-auto d-block" alt="...">
+    </div>
+    <!-- Akhir Image -->
+
+    <!-- Container -->
+    <div class="container bg-light">
+      <h1 class="display-5 text-center">Visi</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h1 class="display-5 text-center">Misi</h1>
+      <hr>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <br>
+    <br>
+
+    <div class="container">
+      <h1 class="display-6 text-center"id="tipe">Tipe Unit Cluster</h1>
+      <hr >
+      <p class="text-center">Harga Perdana Mulai 300Juta-an Heksa Residence merupakan pilihan yang tepat bagi keluarga yang memerlukan rumah terjangkau di area Jabodetabek!</p>
+      <div class="row">
+                <div class="col-sm-auto"> 
+                    <div class="card thumbnail" style="width: 18rem;">
+                      <img src="img/brosur1.jfif" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-sm-auto"> 
+                    <div class="card thumbnail" style="width: 18rem;">
+                      <img src="img/brosur2.jfif" class="card-img-top" alt="..."> 
+                    </div>
+                </div>
+                <div class="col-sm-auto" style="width: 30rem;">
+                  <div class="container bg-light" style="height: 410px; padding-top: 50px;">
+                    <h1 class="display-4 text-center">Tipe 38</h1>
+                    <hr>
+                    <h1 class="display-7 text-danger text-center">Mulai dari 300 Juta-an</h1>
+                        <h1 class="display-4 text-center">Tipe 45</h1>
+                        <hr>
+                        <h1 class="display-7 text-danger text-center">Mulai dari 400 Juta-an</h1>
+                  </div> 
+                </div>
+      </div>
+    </div>
+    <!-- Akhir Container -->
+    <!-- lokasi -->
+    <div id="googleMap" style="width:100%;height:380px;"></div>
+    <!-- Jumbotron -->
+      <div class="jumbotron jumbotron-fluid bg-info">
+        <div class="container text-center">
+          <p class="lead text-white">Tertarik Untuk Membeli Unit Heksa Residence BEKASI? Harga Perdana Terbatas Pemesanan Daftarkan Di SINI SEKARANG Untuk mendapatkan Harga Perdana.</p>
+        </div>
+      </div>
+    <!-- Akhir Jumbotron -->
+    
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4 text-white">
+
+      <!-- Footer Elements -->
+      <div class="container">
+
+        <!-- Social buttons -->
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a class="btn-floating btn-fb mx-1">
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-tw mx-1">
+              <i class="fab fa-twitter"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-gplus mx-1">
+              <i class="fab fa-google-plus-g"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-li mx-1">
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn-floating btn-dribbble mx-1 text-success" href="https://api.whatsapp.com/send?phone=62895326522136&text=Halo%20Admin%20Saya%20Mau%20Menanyakan%20Info%20KPR">
+              <i class="fab fa-whatsapp"> </i>
+            </a>
+          </li>
+        </ul>
+        <!-- Social buttons -->
+
+      </div>
+      <!-- Footer Elements -->
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://mdbootstrap.com/education/bootstrap/"> heksaresidence.com</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+
+    
+    <!-- Footer -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
