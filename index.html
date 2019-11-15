@@ -136,26 +136,9 @@
     </div>
     <!-- Akhir Container -->
     <!-- lokasi -->
-    <div class="container bg-dark" style="margin-top: 10px; margin-bottom: -20px;">
-      <div class="map container-fluid " id="map"></div>
-    </div>
-            <script type="text/javascript">
-    //              menentukan koordinat titik tengah peta
-                  var myLatlng = new google.maps.LatLng(-6.322083,107.0090655,17);
-    //              pengaturan zoom dan titik tengah peta
-                  var myOptions = {
-                      zoom: 13,
-                      center: myLatlng
-                  };
-    //              menampilkan output pada element
-                  var map = new google.maps.Map(document.getElementById("map"), myOptions);
-    //              menambahkan marker
-                  var marker = new google.maps.Marker({
-                       position: myLatlng,
-                       map: map,
-                       title:"Heksa Residence"
-                  });
-            </script>
+    <section class="lokasi">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.218360791096!2d107.0112542!3d-6.322083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea1330358000b46a!2sKantor%20Pemasaran%20HEKSA%20RESIDENCE!5e0!3m2!1sen!2sid!4v1573804692447!5m2!1sen!2sid" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </section>
     <!-- Akhir Lokasi -->
     <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid bg-danger">
