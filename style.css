@@ -53,8 +53,8 @@ footer {
 @media (max-width: 576px) {
 
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		background-color: #28a745;
-		text-align: center;
+		background-color: black;
+		
 	}
 
 	h1{
