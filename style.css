@@ -52,10 +52,7 @@ footer {
 /*Mobile*/
 @media (max-width: 576px) {
 
-	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-		background-color: black;
-		
-	}
+	
 
 	h1{
 		font-size: 25px;

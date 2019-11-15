@@ -24,8 +24,12 @@
 		  jQuery('html, body').stop().animate({ 
 		      scrollTop: offsetTop
 		  }, 1500);
+
+
+
 		  e.preventDefault();
 		});
+
 
 		// Bind to scroll
 		jQuery(window).scroll(function(){
