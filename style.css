@@ -53,24 +53,19 @@ h4{
 
 /*Lokasi*/
 
-#googleMap{
-	margin-top: 50px;
-}
 
-/*Jumbotron*/
+
 .jumbotron {
-	margin-top: 20px;	
+	margin-top: 30px;
+}
+.container .map  {
+	width: auto;
+	height: 300px;
 }
 
 footer {
 	margin-top: -35px;
 }
-
-
-
-	#googleMap{
-		margin-top: 20px;
-	}
 
 
 /*Mobile*/
@@ -97,5 +92,10 @@ footer {
 
 	font {
 		font-size: 10px;
+	}
+
+	.container .map  {
+		width: 250px;
+		height: 300px;
 	}
 }
