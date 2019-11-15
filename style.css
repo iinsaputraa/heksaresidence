@@ -1,4 +1,6 @@
-
+body {
+	margin-top: 50px;
+}
 
 /*Navbar*/
 	.navbar-brand, .nav-link {
@@ -49,6 +51,11 @@ footer {
 
 /*Mobile*/
 @media (max-width: 576px) {
+
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		background-color: #28a745;
+		text-align: center;
+	}
 
 	h1{
 		font-size: 25px;

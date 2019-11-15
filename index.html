@@ -11,48 +11,35 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
 
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
     <title>Heksa Residence</title>
   </head>
   <body>
     <!-- Navbar --> 
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light bg-dark fixed-top">
       <a class="navbar-brand" href="#">Heksa Residence</a>
       <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#home">Beranda<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#visimisi">Visi Misi</a>
-          <a class="nav-item nav-link" href="#tipe">Tipe</a>
-          <a class="nav-item nav-link" href="#lokasi">Lokasi</a>
+          <a class="nav-item nav-link page-scroll" href="#home">Beranda<span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link page-scroll" href="#visimisi">Visi Misi</a>
+          <a class="nav-item nav-link page-scroll" href="#tipe">Tipe</a>
+          <a class="nav-item nav-link page-scroll" href="#lokasi">Lokasi</a>
         </div>
       </div>
     </nav>
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <a class="navbar-brand" href="#">Heksa Residence</a>
-      <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ml-auto">
-          <a class="nav-item nav-link active" href="#home">Beranda<span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#visimisi">Visi Misi</a>
-          <a class="nav-item nav-link" href="#tipe">Tipe</a>
-          <a class="nav-item nav-link" href="#lokasi">Lokasi</a>
-        </div>
-      </div>
-    </nav>
+
     <!-- Akhir Navbar -->
     <!-- Carousel -->
     <div id="home">
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slie-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner">
@@ -135,11 +122,13 @@
        </div>
     </div>
     <!-- Akhir Container -->
+    
     <!-- lokasi -->
-    <section class="lokasi">
+    <section class="lokasi" id="lokasi">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15862.218360791096!2d107.0112542!3d-6.322083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xea1330358000b46a!2sKantor%20Pemasaran%20HEKSA%20RESIDENCE!5e0!3m2!1sen!2sid!4v1573804692447!5m2!1sen!2sid" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
     <!-- Akhir Lokasi -->
+
     <!-- Jumbotron -->
       <div class="jumbotron jumbotron-fluid bg-danger">
         <div class="container text-center">
@@ -201,5 +190,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- custom js -->
+    <script type="text/javascript" src="custom.js"></script>
+
   </body>
 </html>
