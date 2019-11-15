@@ -1,5 +1,6 @@
 
 
+
 /*Navbar*/
 	.navbar-brand, .nav-link {
 		color: white !important;
@@ -16,6 +17,32 @@
 
 	.image-logo img{
 		padding-top: 35px; 
+	}
+
+	/* --- Gallery ------------------------- */
+
+	.gallery{
+		display: table;
+		width: 900px;
+		max-width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.gallery .box{
+		display: table-cell;
+		vertical-align: top;
+		padding: 5px;
+	}
+
+	.gallery .box img{
+		width:100%;
+		height: auto;
+		border-radius: 5px;
+		border: 2px solid #eee;
+	}
+	.gallery .box img:hover{
+		opacity: .8;
 	}
 
 /*font*/
