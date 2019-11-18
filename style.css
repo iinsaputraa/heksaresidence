@@ -22,63 +22,71 @@ body {
 
 
 /*font*/
-h4{
-	font-size: 20px;
-	padding-top: 7px;
-}
+	h4{
+		font-size: 20px;
+		padding-top: 10px;
+	}
 
 
 /*Lokasi*/
 
-.lokasi {
-	margin-top: 15px;
-	margin-bottom: -20px;
-}
-
-
-.jumbotron {
-	margin-top: 30px;
-}
-.container .map  {
-	width: auto;
-	height: 300px;
-}
-
-footer {
-	margin-top: -35px;
-}
-
-
-/*Mobile*/
-@media (max-width: 576px) {
-
-	
-
-	h1{
-		font-size: 25px;
-		padding-top: 20px;	
+	.lokasi {
+		margin-top: 15px;
+		margin-bottom: -20px;
 	}
 
-	h4	{
-		font-size: 10px;
-		 
+
+	.jumbotron {
+		margin-top: 30px;
 	}
-
-	p {
-		font-size: 12px;
-	}
-
-	.jumbotron .container p{
-		padding-top: 15px;
-		font-size: 14px;
-	}	
-
-	font {
-		font-size: 10px;
-	}
-
 	.container .map  {
-		width: 250px;
+		width: auto;
 		height: 300px;
 	}
-}
+
+	.container img {
+		margin-top: 50px;
+	}
+
+	footer {
+		margin-top: -35px;
+	}
+
+	.facebook:hover {color: #3B5998;}
+	.twitter:hover {color: #00ACEE;}
+	.googleplus:hover{color:#DB4A39;}
+	.linkedin:hover{color:#0E76A8;}
+
+	/*Mobile*/
+	@media (max-width: 576px) {
+
+		
+
+		h1{
+			font-size: 25px;
+			padding-top: 20px;	
+		}
+
+		h4	{
+			font-size: 10px;
+			 
+		}
+
+		p {
+			font-size: 12px;
+		}
+
+		.jumbotron .container p{
+			padding-top: 15px;
+			font-size: 14px;
+		}	
+
+		font {
+			font-size: 10px;
+		}
+
+		.container .map  {
+			width: 250px;
+			height: 300px;
+		}
+	}
