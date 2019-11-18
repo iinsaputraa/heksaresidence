@@ -1,3 +1,5 @@
+/*https://daneden.github.io/animate.css*/
+
 body {
 	margin-top: 50px;
 }
@@ -8,6 +10,7 @@ body {
 		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
 
 	}
+
 
 /*Image*/
 	.image-logo {
@@ -61,6 +64,9 @@ body {
 	@media (max-width: 576px) {
 
 		
+		.kontak {
+			text-align: center;
+		}		
 
 		h1{
 			font-size: 25px;
