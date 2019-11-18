@@ -61,7 +61,7 @@ body {
 	.linkedin:hover{color:#0E76A8;}
 
 	/*Mobile*/
-	@media (max-width: 576px) {
+	@media (max-width: 400px) {
 
 		
 		.kontak {
