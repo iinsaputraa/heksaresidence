@@ -30,13 +30,14 @@ body {
 
 	.carousel-item {
 		margin-top: -160px;
+
 	}
 
 	.carousel-item img{
-		opacity: 0.8;
+		opacity: 1.0;
 		filter: alpha(opacity=80); /* For IE8 and earlier */
-		box-shadow: 1px 1px 1px rgba(0,0,0,10);
 	}
+
 
 	.image-logo {
 		height: 150px;
@@ -107,6 +108,14 @@ body {
 		.sidebar {
 			height: 70px;
 			width: 70px;
+		}
+
+		.image-logo img {
+			height: 80px;
+		}
+
+		.welcome {
+			margin-top: -70px;
 		}
 
 		h1{
