@@ -11,6 +11,17 @@ body {
 
 	}
 
+/*sidebar*/
+
+.sidebar {
+	margin-top: 250px;
+	margin-left: -40px;
+	height: 100px;
+	width: 100px;	
+	position: fixed;
+	float: left;
+}
+
 
 /*Image*/
 	.image-logo {
@@ -29,6 +40,11 @@ body {
 		font-size: 20px;
 		padding-top: 10px;
 	}
+
+	.kontak {
+		text-align: center;
+	}		
+
 
 
 /*Lokasi*/
@@ -63,10 +79,10 @@ body {
 	/*Mobile*/
 	@media (max-width: 400px) {
 
-		
-		.kontak {
-			text-align: center;
-		}		
+		.sidebar {
+			height: 70px;
+			width: 70px;
+		}
 
 		h1{
 			font-size: 25px;
