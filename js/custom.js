@@ -23,7 +23,7 @@
 		      offsetTop = href === "#" ? 0 : $(href).offset().top-topMenuHeight+22;
 		  jQuery('html, body').stop().animate({ 
 		      scrollTop: offsetTop
-		  }, 1500);
+		  }, 1500, 'easeInOutExpo');
 
 
 

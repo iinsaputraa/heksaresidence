@@ -7,7 +7,8 @@ body {
 /*Navbar*/
 	.navbar-brand, .nav-link {
 		color: white !important;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+		text-shadow: 1px 1px 1px rgba(0,0,0,10);
+		margin-right: 15px;
 
 	}
 
@@ -78,6 +79,7 @@ body {
 
 	/*Mobile*/
 	@media (max-width: 400px) {
+
 
 		.sidebar {
 			height: 70px;
