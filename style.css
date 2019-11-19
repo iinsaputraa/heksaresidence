@@ -1,6 +1,8 @@
 /*https://daneden.github.io/animate.css*/
 
 body {
+
+	/*background-image: url(img/bg.jpg);*/
 	margin-top: 50px;
 }
 
@@ -25,15 +27,32 @@ body {
 
 
 /*Image*/
+
+	.carousel-item {
+		margin-top: -160px;
+	}
+
+	.carousel-item img{
+		opacity: 0.8;
+		filter: alpha(opacity=80); /* For IE8 and earlier */
+		box-shadow: 1px 1px 1px rgba(0,0,0,10);
+	}
+
 	.image-logo {
 		height: 150px;
 		width: auto;
 
 	}
 
+	.imgcarousel {
+		margin-top: -300px;
+		font-size: 100px;
+	}
+
 	.image-logo img{
 		padding-top: 35px; 
 	}
+
 
 
 /*font*/
@@ -79,6 +98,10 @@ body {
 
 	/*Mobile*/
 	@media (max-width: 400px) {
+
+		.carousel-item {
+			margin-top: 0px;
+		}
 
 
 		.sidebar {
