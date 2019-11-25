@@ -46,8 +46,13 @@ body {
 	}
 
 	.fontcarousel {
-		font-size: 70px;
+		font-size: 8vw;
 	}
+
+	.carousel-caption p {
+		font-size: 1.2vw;
+	}
+
 
 
 
@@ -62,11 +67,20 @@ body {
 		height: 150px; 
 	}
 
-
+/*Tipe Cluster*/
+	.card button:hover {
+		background-color: #fff;
+		color: black !important;
+	}
+	button:active, button:focus {
+		background-color: #fff;
+		color: black !important;
+	}
+/*Akhir Tipe*/
 
 /*font*/
 	h4{
-		font-size: 20px;
+		font-size: 1.7vw;
 		padding-top: 10px;
 	}
 
@@ -106,19 +120,41 @@ body {
 	.linkedin:hover{color:#0E76A8;}
 
 	/*Mobile*/
+
 	@media (max-width: 992px) {
+		.carousel-item {
+			margin-top: 0px;
+		}
+		.carousel-caption p {
+		font-size: 1.4vw;
+	}
+		h4 {
+			font-size: 1.8vw;
+		}
+	}
+
+	@media (max-width: 768px) {
+		.carousel-item {
+			margin-top: 0px;
+		}
+		.carousel-caption p {
+			font-size: 2vw;
+		}
+		h4	{
+			font-size: 1.9vw;
+		}
+		.image-logo img {
+			height: 130px;
+		}
+
+	}
+
+	@media (max-width: 576px) {
 
 		.carousel-item {
 			margin-top: 0px;
 		}
 
-		.fontcarousel {
-			font-size: 25px;
-		}
-
-		.carousel-caption p {
-			font-size: 8px;
-		}
 
 		.sidebar {
 			height: 70px;
@@ -157,7 +193,7 @@ body {
 		}
 
 		.container .map  {
-			width: 250px;
-			height: 300px;
+			width: 80%;
+			height: auto;
 		}
 	}
