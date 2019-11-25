@@ -106,7 +106,7 @@ body {
 	.linkedin:hover{color:#0E76A8;}
 
 	/*Mobile*/
-	@media (max-width: 400px) {
+	@media (max-width: 992px) {
 
 		.carousel-item {
 			margin-top: 0px;
@@ -126,7 +126,7 @@ body {
 		}
 
 		.image-logo img {
-			height: 80px;
+			height: 100px;
 		}
 
 		.welcome {
